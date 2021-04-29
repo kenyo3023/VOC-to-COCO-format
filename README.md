@@ -5,4 +5,7 @@
 - unzip and rename the download dataset to VOC2012_trainval, put in the path ./
 - run the .ipynb in ./notebook/
   - **01_voc2coco.ipynb** is to convert the voc format (.xml) to coco format (.json) -> ../VOC2012_coco/annotations.json
-  - **02_split_traintestval.ipynb** is to split the annotations.json into training, testing and validation set -> ../VOC2012_coco/{train_voc or test_voc or val_voc}.json
+  - **02_split_traintestval.ipynb** is to split the annotations.json into training, testing and validation set -> ../VOC2012_coco/{
+          <font color=#00FFFF>train_voc<font> or 
+          <font color=#00FFFF>test_voc<font> or 
+          <font color=#00FFFF>val_voc<font>}.json
